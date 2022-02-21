@@ -15,15 +15,14 @@ const Hero = () => {
                     <button className="btn">Learn More</button>
                 </div>
             </div>
-        </div>
-
-        <div className="right">
-            <div className="img-container">
-                <img src={Crypto} alt="" />
+            <div className="right">
+                <div className="img-container">
+                    <img src={Crypto} alt="" />
+                </div>
             </div>
-        </div>
 
-    </div>
+        </div>
+    </div>    
   )
 }
 

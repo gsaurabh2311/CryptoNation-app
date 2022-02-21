@@ -12,11 +12,18 @@
 
 .signup img {
     width: 300px;
+    top: -10px;
+    position: relative;
 }
 
 .signup img:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
+}
+
+.signup .right {
+    position: relative;
+    top: -50px;
 }
 
 .signup .right p {
@@ -26,5 +33,10 @@
 @media screen and (max-width:940px) {
     .signup .container {
         grid-template-columns: 1fr;
+    }
+    .signup img {
+        width: 300px;
+        top: -90px;
+        position: relative;
     }
 }
